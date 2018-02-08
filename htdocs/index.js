@@ -8,7 +8,7 @@ $(function(){
     var height = $more.height();
 
     // スピード100のときのduration
-    var duration = height/10;
+    var duration = height/100;
     if( duration < 100 ){
       duration = 100;
     } else if( duration > 300 ) {
